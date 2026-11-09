@@ -1,0 +1,24 @@
+{
+    "name": "supabasephp/core",
+    "description": "Core contracts, configuration, exceptions and shared components for the Supabase PHP SDK.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "supabase",
+        "php",
+        "sdk",
+        "core"
+    ],
+    "require": {
+        "php": "^8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Supabase\\Core\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}

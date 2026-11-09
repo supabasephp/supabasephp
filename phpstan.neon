@@ -1,0 +1,27 @@
+parameters:
+    level: max
+
+    phpVersion: 80400
+
+    paths:
+        - packages
+        - tests
+
+    tmpDir: .phpstan/cache
+
+    bootstrapFiles:
+        - vendor/autoload.php
+
+    treatPhpDocTypesAsCertain: false
+
+    checkMissingOverrideMethodAttribute: true
+
+    reportUnmatchedIgnoredErrors: true
+
+    parallel:
+        maximumNumberOfProcesses: 2
+
+    excludePaths:
+        analyse:
+            - packages/*/tests/Fixtures/*
+            - tests/Fixtures/*

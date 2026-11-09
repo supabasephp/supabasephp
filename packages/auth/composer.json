@@ -1,0 +1,29 @@
+{
+    "name": "supabasephp/auth",
+    "description": "Supabase authentication package for PHP applications.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "supabase",
+        "php",
+        "auth",
+        "authentication",
+        "oauth",
+        "jwt",
+        "session"
+    ],
+    "require": {
+        "php": "^8.4",
+        "supabasephp/core": "^1.0",
+        "supabasephp/http": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Supabase\\Auth\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}

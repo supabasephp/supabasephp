@@ -1,0 +1,29 @@
+{
+    "name": "supabasephp/vector",
+    "description": "Vector search and pgvector integration for Supabase PostgreSQL.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "supabase",
+        "php",
+        "vector",
+        "pgvector",
+        "embedding",
+        "similarity-search",
+        "ai"
+    ],
+    "require": {
+        "php": "^8.4",
+        "supabasephp/database": "^1.0",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Supabase\\Vector\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}

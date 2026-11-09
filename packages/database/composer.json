@@ -1,0 +1,30 @@
+{
+    "name": "supabasephp/database",
+    "description": "Supabase PostgREST database client with a fluent query builder.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "supabase",
+        "php",
+        "database",
+        "postgrest",
+        "query-builder",
+        "crud",
+        "postgresql"
+    ],
+    "require": {
+        "php": "^8.4",
+        "supabasephp/core": "^1.0",
+        "supabasephp/http": "^1.0",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Supabase\\Database\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}

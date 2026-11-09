@@ -1,0 +1,29 @@
+{
+    "name": "supabasephp/functions",
+    "description": "Supabase Edge Functions client for invoking serverless functions.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "supabase",
+        "php",
+        "edge-functions",
+        "serverless",
+        "functions",
+        "api"
+    ],
+    "require": {
+        "php": "^8.4",
+        "supabasephp/core": "^1.0",
+        "supabasephp/http": "^1.0",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Supabase\\Functions\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}

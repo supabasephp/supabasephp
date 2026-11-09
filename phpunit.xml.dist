@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd"
+    bootstrap="vendor/autoload.php"
+    cacheDirectory=".phpunit.cache"
+    colors="true"
+    executionOrder="default"
+    failOnDeprecation="true"
+    failOnEmptyTestSuite="true"
+    failOnNotice="true"
+    failOnPhpunitDeprecation="true"
+    failOnPhpunitNotice="true"
+    failOnPhpunitWarning="true"
+    failOnRisky="true"
+    failOnWarning="true"
+    beStrictAboutOutputDuringTests="true"
+    beStrictAboutTestsThatDoNotTestAnything="true"
+    beStrictAboutCoverageMetadata="true"
+    requireCoverageMetadata="true"
+>
+    <testsuites>
+        <testsuite name="Unit">
+            <directory>packages</directory>
+            <directory>tests/Unit</directory>
+        </testsuite>
+
+        <testsuite name="Integration">
+            <directory>tests/Integration</directory>
+        </testsuite>
+    </testsuites>
+
+    <source>
+        <include>
+            <directory suffix=".php">packages</directory>
+        </include>
+    </source>
+
+    <coverage>
+        <report>
+            <html outputDirectory="build/coverage"/>
+            <text outputFile="build/coverage.txt"/>
+        </report>
+    </coverage>
+</phpunit>

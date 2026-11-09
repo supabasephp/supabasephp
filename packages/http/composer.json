@@ -1,0 +1,33 @@
+{
+    "name": "supabasephp/http",
+    "description": "Native cURL HTTP transport with PSR interoperability for the Supabase PHP SDK.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "supabase",
+        "php",
+        "http",
+        "curl",
+        "psr-18",
+        "transport"
+    ],
+    "require": {
+        "php": "^8.4",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "supabasephp/core": "^1.0",
+        "psr/http-message": "^2.0",
+        "psr/http-client": "^1.0",
+        "psr/http-factory": "^1.1",
+        "nyholm/psr7": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Supabase\\Http\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}

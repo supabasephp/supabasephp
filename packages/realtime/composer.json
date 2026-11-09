@@ -1,0 +1,30 @@
+{
+    "name": "supabasephp/realtime",
+    "description": "Supabase Realtime client with WebSocket subscriptions, broadcast and presence.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "supabase",
+        "php",
+        "realtime",
+        "websocket",
+        "broadcast",
+        "presence",
+        "postgres-changes"
+    ],
+    "require": {
+        "php": "^8.4",
+        "supabasephp/core": "^1.0",
+        "ext-json": "*",
+        "ext-openssl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Supabase\\Realtime\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
