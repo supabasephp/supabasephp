@@ -32,32 +32,36 @@ Built for PHP 8.4+, the project follows a modular architecture in which each Sup
 
 Additional requirements may apply to individual packages.
 
-Packages
+### Packages
 
-Package| Description
-"supabasephp/client"| Main SDK and service integration
-"supabasephp/core"| Shared contracts and utilities
-"supabasephp/http"| HTTP transport and PSR interoperability
-"supabasephp/auth"| Authentication and session management
-"supabasephp/database"| PostgREST database client
-"supabasephp/storage"| File and bucket management
-"supabasephp/realtime"| WebSocket subscriptions
-"supabasephp/functions"| Edge Functions
-"supabasephp/vector"| Vector search and pgvector integration
+|Package| Description|
+|"supabasephp/client"| Main SDK and service integration|
+|"supabasephp/core"| Shared contracts and utilities|
+|"supabasephp/http"| HTTP transport and PSR interoperability|
+|"supabasephp/auth"| Authentication and session management|
+|"supabasephp/database"| PostgREST database client|
+|"supabasephp/storage"| File and bucket management|
+| "supabasephp/realtime"| WebSocket subscriptions |
+|"supabasephp/functions"| Edge Functions|
+|"supabasephp/vector"| Vector search and pgvector integration|
 
 Each package can be installed independently when its dependencies are satisfied.
 
-Installation
+### Installation
 
 Install the complete SDK:
 
+```sh
 composer require supabasephp/client
+```
 
 Install an individual service:
 
-composer require supabasephp/auth
-
+```sh
 composer require supabasephp/database
+
+composer require supabasephp/auth
+```
 
 ## Quick Start
 ```php
@@ -143,3 +147,5 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) before contributing.
 ## License
 
 SupabasePHP is open-source software licensed under the MIT License.
+
+See ["LICENSE"](LICENSE) for details.
