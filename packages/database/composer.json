@@ -14,8 +14,8 @@
     ],
     "require": {
         "php": "^8.4",
-        "supabasephp/core": "^1.0",
-        "supabasephp/http": "^1.0",
+        "supabasephp/core": "self.version",
+        "supabasephp/http": "self.version",
         "ext-json": "*"
     },
     "autoload": {
