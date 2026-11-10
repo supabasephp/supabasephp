@@ -34,16 +34,17 @@ Additional requirements may apply to individual packages.
 
 ### Packages
 
-|Package| Description|
-|"supabasephp/client"| Main SDK and service integration|
-|"supabasephp/core"| Shared contracts and utilities|
-|"supabasephp/http"| HTTP transport and PSR interoperability|
-|"supabasephp/auth"| Authentication and session management|
-|"supabasephp/database"| PostgREST database client|
-|"supabasephp/storage"| File and bucket management|
-| "supabasephp/realtime"| WebSocket subscriptions |
-|"supabasephp/functions"| Edge Functions|
-|"supabasephp/vector"| Vector search and pgvector integration|
+| Package | Description |
+|---|---|
+| `supabasephp/client` | Main SDK and service integration |
+| `supabasephp/core` | Shared contracts and utilities |
+| `supabasephp/http` | HTTP transport and PSR interoperability |
+| `supabasephp/auth` | Authentication and session management |
+| `supabasephp/database` | PostgREST database client |
+| `supabasephp/storage` | File and bucket management |
+| `supabasephp/realtime` | WebSocket subscriptions |
+| `supabasephp/functions` | Edge Functions |
+| `supabasephp/vector` | Vector search and pgvector integration |
 
 Each package can be installed independently when its dependencies are satisfied.
 
